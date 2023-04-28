@@ -5,8 +5,8 @@ public class Program
     public static void Main()
     {
         int a, b, c, d;
-
-        for (int i = 1; i < 1000; i++)
+        // should be true at 14, 30, 44 only
+        for (int i = 3; i < 1000; i++)
         {
             Console.WriteLine(VerdiantComputer.ComputeVerdiance(i));
         }
